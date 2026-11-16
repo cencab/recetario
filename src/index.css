@@ -3,7 +3,10 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Inter"), local("Inter-Regular");
+  src:
+    url("./fonts/Inter-Regular.woff2") format("woff2"),
+    local("Inter"),
+    local("Inter-Regular");
 }
 
 * {
@@ -13,16 +16,7 @@
 }
 
 body {
-  font-family:
-    "Inter",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ffffff;

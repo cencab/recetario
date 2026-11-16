@@ -13,6 +13,12 @@ function SearchForm({ onSearch }) {
 
   return (
     <form className="search-form" onSubmit={handleSubmit}>
+      <label
+        htmlFor="recipe-search"
+        style={{ position: "absolute", left: "-9999px" }}
+      >
+        Buscar receta por ingrediente o plato
+      </label>
       <input
         type="text"
         className="search-form__input"

@@ -31,22 +31,18 @@ function Search({
           }}
         />
 
-        {/* Estado de carga con el Preloader */}
         {isLoading && <Preloader />}
 
-        {/* Mensaje de error general de la API */}
         {!isLoading && errorMessage && (
           <p className="search-page__status-text">{errorMessage}</p>
         )}
 
-        {/* Mensaje cuando no se encuentra nada */}
         {!isLoading && hasSearched && meals.length === 0 && !errorMessage && (
           <div className="search-page__not-found">
             <p className="search-page__status-text">{NOT_FOUND_MESSAGE}</p>
           </div>
         )}
 
-        {/* Bloque de resultados */}
         {!isLoading && meals.length > 0 && (
           <section className="search-page__results">
             <div className="search-page__grid">
@@ -59,7 +55,6 @@ function Search({
               ))}
             </div>
 
-            {/* Botón Mostrar más (visible sólo si quedan elementos por mostrar) */}
             {visibleCount < meals.length && (
               <button
                 type="button"
