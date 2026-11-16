@@ -16,7 +16,7 @@ function SearchForm({ onSearch }) {
       <input
         type="text"
         className="search-form__input"
-        placeholder="Introduce un ingrediente o plato (ej. Chicken, Pasta)"
+        placeholder="Introduce un ingrediente o plato en inglés (ej. Chicken, Pasta)"
         value={keyword}
         onChange={(e) => setKeyword(e.target.value)}
         required

@@ -10,8 +10,13 @@ function Home() {
         </h1>
         <p className="home__description">
           RecipeFinder es un explorador interactivo de recetas globales
-          conectado con la API de TheMealDB. Busca platos por ingredientes,
-          explora instrucciones paso a paso y descubre nuevas ideas culinarias.
+          conectado con la API de TheMealDB.
+          <br />
+          <br />
+          <strong>Nota:</strong> La base de datos internacional está en inglés,
+          por lo que las búsquedas y las recetas se mostrarán en este idioma.
+          Busca platos por ingredientes, explora instrucciones paso a paso y
+          descubre nuevas ideas culinarias.
         </p>
         <Link to="/search" className="home__button">
           Explorar Recetas
