@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/recetario/static/css/main.f9feee25.css",
-    "main.js": "/recetario/static/js/main.ac6ecb37.js",
+    "main.css": "/recetario/static/css/main.e9037613.css",
+    "main.js": "/recetario/static/js/main.069f8053.js",
+    "static/media/Inter-Regular.woff2": "/recetario/static/media/Inter-Regular.85c128721035823e5405.woff2",
     "index.html": "/recetario/index.html",
-    "main.f9feee25.css.map": "/recetario/static/css/main.f9feee25.css.map",
-    "main.ac6ecb37.js.map": "/recetario/static/js/main.ac6ecb37.js.map"
+    "main.e9037613.css.map": "/recetario/static/css/main.e9037613.css.map",
+    "main.069f8053.js.map": "/recetario/static/js/main.069f8053.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9feee25.css",
-    "static/js/main.ac6ecb37.js"
+    "static/css/main.e9037613.css",
+    "static/js/main.069f8053.js"
   ]
 }
