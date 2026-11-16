@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/recetario/static/css/main.f9feee25.css",
+    "main.js": "/recetario/static/js/main.6fdaac00.js",
+    "index.html": "/recetario/index.html",
+    "main.f9feee25.css.map": "/recetario/static/css/main.f9feee25.css.map",
+    "main.6fdaac00.js.map": "/recetario/static/js/main.6fdaac00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9feee25.css",
+    "static/js/main.6fdaac00.js"
+  ]
+}
