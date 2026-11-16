@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Search from "./components/Search/Search";
 import RecipeModal from "./components/RecipeModal/RecipeModal";
-import Footer from "./components/Footer/Footer"; // <-- Importar Footer
+import Footer from "./components/Footer/Footer";
 import { searchMeals } from "./utils/TheMealDBApi";
 import { SEARCH_ERROR_MESSAGE } from "./utils/constants";
 import "./App.css";
@@ -43,7 +43,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="page">
         <Header />
         <Routes>
@@ -70,7 +70,7 @@ function App() {
           <RecipeModal meal={selectedMeal} onClose={handleCloseModal} />
         )}
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

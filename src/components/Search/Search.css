@@ -49,7 +49,6 @@
   border-color: #999999;
 }
 
-/* Responsividad sin scroll horizontal hasta 320px */
 @media screen and (max-width: 900px) {
   .search-page__grid {
     grid-template-columns: repeat(2, 1fr);

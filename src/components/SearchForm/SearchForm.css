@@ -19,7 +19,6 @@
     box-shadow 0.2s ease;
 }
 
-/* Resaltado al enfocar según rúbrica */
 .search-form__input:focus {
   border-color: #ff6347;
   box-shadow: 0 0 6px rgba(255, 99, 71, 0.4);
